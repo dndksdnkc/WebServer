@@ -1,0 +1,34 @@
+@charset=utf-8;
+#nav{
+	list-style-type: none;
+}
+#nav>li a:link{
+	text-decoration-line: none;
+	color: white;
+	background-image: url("images/linkbg.jpg");
+	height: 50px;
+	float:left;
+	width: 120px;
+	text-align: center;
+	line-height: 50px;
+		
+}
+#nav>li a:visited{
+	color: white;
+}
+#nav>li a:hover{
+	color: deeppink;
+	cursor:pointer;
+}
+#div{
+		background-image: url("images/bg.gif");
+	}
+	#footer>p{
+		background-image: url("images/footer1.gif");
+		height: 50px;
+		color: white;
+		margin-top: -5px;
+		text-align: right;
+		line-height: 20px;
+		font-size: 13px;
+	}
